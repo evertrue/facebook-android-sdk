@@ -5,6 +5,7 @@
 *.classpath
 *.project
 *.settings
+*.properties
 facebook/local.properties
 facebook/bin/
 facebook/gen/
