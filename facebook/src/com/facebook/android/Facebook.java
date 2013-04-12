@@ -1354,18 +1354,18 @@ public class Facebook {
         + "571b6469b232d8e768a7f7ca04f7abe4a775615916c07940656b58717457b42bd"
         + "928a2";
 
-    /**
-     * Helper to reinitiate the facebook sdk on activity closed
-     * @param mAuthActivityCode
-     * @param mAuthDialogListener
-     */
-    public void setStatus(int mAuthActivityCode, DialogListener mAuthDialogListener)
-    {
-       if(mAuthActivityCode == -1)
-	       this.mAuthActivityCode = DEFAULT_AUTH_ACTIVITY_CODE;
-       else
-	       this.mAuthActivityCode = mAuthActivityCode;
-
-       this.mAuthDialogListener = mAuthDialogListener;
-    }
+//    /**
+//     * Helper to reinitiate the facebook sdk on activity closed
+//     * @param mAuthActivityCode
+//     * @param mAuthDialogListener
+//     */
+//    public void setStatus(int mAuthActivityCode, DialogListener mAuthDialogListener)
+//    {
+//       if(mAuthActivityCode == -1)
+//	       this.mAuthActivityCode = DEFAULT_AUTH_ACTIVITY_CODE;
+//       else
+//	       this.mAuthActivityCode = mAuthActivityCode;
+//
+//       this.mAuthDialogListener = mAuthDialogListener;
+//    }
 }
